@@ -13,11 +13,12 @@ font-family: fantasy; }
 	background-color:orange;
 	border-radius: 0;
 	border: 0;
+	
 }
 
 #duallogo{
-	background:url("rest-test\AmadisHHduallogo.png");
-	width: 200px;
+	
 	height: 175px;
-	margin: 10px 15px 10px 0px;
+	margin: 10px 15px 10px 15px;
+	background: url('C:/Users/aeden/rest-test1/AmadisHHduallogo');
 }
