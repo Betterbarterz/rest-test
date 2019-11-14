@@ -17,8 +17,16 @@ font-family: fantasy; }
 }
 
 #duallogo{
-	width: 200px;
-	height: 175px;
-	margin: 20px 15px 20px 15px;
-	background: url( css/AmadisHHduallogo.png); 
+	width: 400px;
+	height: 400px;
+	margin: 00px 5px 0px 5px;
+	border: 1px solid black;
+ background: url(AmadisHHduallogo.png) no-repeat;
+}
+
+
+
+
+
+url(http:\\betterbarterz.gitgub.io/rest-test1/images/AmadisHHduallogo.png); -->
 }
