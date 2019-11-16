@@ -61,7 +61,7 @@ font-family: fantasy; }
 }
 
 #nav-list{
-margin-top: 10px;
+	margin-top: 10px;
 }
 
 #nav-list a{
@@ -87,4 +87,13 @@ margin-top: 10px;
 	color: #557c3e
 	text-align: right;
 	padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .dropdown-item{
+	border: 1px solid #61122f;
+
+}
+
+.navbar-header button.navbar-toggle{
+	claer:both;
 }
