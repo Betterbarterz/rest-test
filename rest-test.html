@@ -8,7 +8,6 @@
     </title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        
     <link rel="stylesheet" type="text/css" href="css/rest-test.css">
     <!--<link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700'>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=lora"> -->
@@ -17,9 +16,9 @@
   <body>
    <header>
    	<nav id="header-navbar" class="navbar navbar-default">
-   		<div class="container">
+   		<div class="container-fluid">
    			<div class="navbar-header">
-          <a href="rest-test.html" class="visible-md visible-lg">
+          <a href="rest-test.html" class="float-left d-none d-md-block d-lg-block d-xl-block">
    				
           	<div id="duallogo" alt="Dual Logo" >            
             </div>
@@ -39,22 +38,31 @@
             ">
             <span> Organic </span>
           </p> -->
-        </div>
-         <div class='btn-group float-right' >
-          <button type="button" class="btn btn-secondary dropdown-toggle navbar-toggle" data-toggle="dropdown" data-target="#collapsable-nav" aria-expanded="false">
+       </div>
+         
+        <div class="container float-right">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light float-right"  >
+          <a class="navbar-brand" href="#"></a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span>
           </button>
-            <a class="sr-only">Toggle Nav</a> 
-            <a class="dropdown-menu" id="nav-list">Menu</a>
-            <a class="dropdown-item" ></a>
-            <a class="dropdown-item"></a>
-            <a class="dropdown-item"></a>
-          </button>        
-        </div>
-      </div>
-
+          <div class="collapse navbar-collapse" id="collapsable-nav">
+            <div class="navbar-nav">
+            <a  class="nav-item nav-link active" href="#rest-test.html"><span class="sr-only"> Toggle Nav</span></a> 
+            <a class="nav-item nav-link active" id="nav-list">Home</a>
+            <a class="nav-item nav-link">Menu</a>
+            <a class="nav-item nav-link">About</a>
+            <a class="nav-item nav-link">Certificates</a>        
+            </div>
+         </div>
+        </nav>
+       </div>
        <div id="collapsable-nav" class="collapse navbar-collapse">
          
           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="rest-test.html">
+                <span class="glyphicon glyphicon-home"></span>Home</a>
+            </li>    
             <li>
               <a href="#menu-categories.html">
                 <span class="glyphicon glyphicon-cutlery"></span>Menu</a>
@@ -89,7 +97,7 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
   </body>

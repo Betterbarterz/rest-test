@@ -22,8 +22,8 @@ font-family: fantasy; }
 	background-size: 100%;
 	height:150px;
     width: 150px;
-	margin: 00px 0px 0px 0px;
-	border: 1px solid black;
+	margin: 5px 5px 5px 0px;
+	border: 1px solid black ;
     
 } 
 .navbar-brand {
@@ -35,22 +35,22 @@ font-family: fantasy; }
 .navbar-brand h1 { /* Restaurant Name*/
  font-family: 'Arial', sans-serif;
  color: #557c3e;
- font-size: 1em;
+ font-size: 1.25em;
  text-transform: uppercase;
  font-weight: bold;
- text-shadow: 1px 1px 1px #222;
+ text-shadow: 2px 2px 2px #222;
  margin-top: 0;
  margin-bottom: 0;
  line-height: .75;
-
 }
+
 .navbar-brand a:hover, .navbar-brand a:focus{
 	text-decoration: none;
 }
 
 .navbar-brand p{ /* Permaculture logo*/ 
-    color: #000;
-    text-transform: uppercase;
+    color: #222;
+    text-transform:;
     font-size: .7em;
     margin-top: 15px;
 
@@ -89,7 +89,7 @@ font-family: fantasy; }
 	padding-right: 15px;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .dropdown-item{
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
 	border: 1px solid #61122f;
 
 }
